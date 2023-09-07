@@ -1,9 +1,9 @@
 import React from 'react';
 
-export default function Header() {
+export default function Mobile() {
   return (
     <div>
-      <h1>header</h1>
+      <h1>Mobile</h1>
     </div>
-  )
+  );
 }
