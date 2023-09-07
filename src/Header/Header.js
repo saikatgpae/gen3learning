@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
 export default function Header() {
   return (
     <div>
-      <t1>header</t1>
+      <h1>header</h1>
     </div>
   )
 }
