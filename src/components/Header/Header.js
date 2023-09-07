@@ -33,7 +33,7 @@ export default function Header() {
   const isBreakpoint = useMediaQuery(768);
 
   return (
-    <div style={{ backgroundColor: '#105b50' }}>
+    <div className="d-flex" style={{ backgroundColor: '#105b50' }}>
       <img className="logo" style={{ width: '229px', height: '59px' }} src={logo} alt="Logo" />
       { isBreakpoint ? (<Mobile />) : (<Desktop />)}
     </div>

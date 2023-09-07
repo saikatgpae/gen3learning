@@ -1,0 +1,17 @@
+.menu {
+    display: flex;
+}
+
+.menu-items {
+    color: '#d3d3d3'
+}
+
+@media screen and (max-width: 768px) {
+    /* .menu-items {
+        display: block !important;
+    } */
+
+    .menu {
+        display: block;
+    }
+}
