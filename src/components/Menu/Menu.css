@@ -1,17 +1,13 @@
 .menu {
-    display: flex;
-}
-
-.menu-items {
-    color: '#d3d3d3'
+  display: flex;
 }
 
 @media screen and (max-width: 768px) {
-    /* .menu-items {
+  /* .menu-items {
         display: block !important;
     } */
 
-    .menu {
-        display: block;
-    }
+  .menu {
+    display: block;
+  }
 }
