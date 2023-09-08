@@ -1,10 +1,21 @@
 .menu {
   display: flex;
-  justify-content: space-around;
+
+  /* justify-content: space-around; */
+}
+
+.menu-items,
+.free-trial-signin {
+  display: flex;
 }
 
 @media screen and (max-width: 768px) {
   .menu {
+    display: block;
+  }
+
+  .menu-items,
+  .free-trial-signin {
     display: block;
   }
 }
