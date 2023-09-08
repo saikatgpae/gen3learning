@@ -5,3 +5,14 @@
   background-color: transparent;
   border: none;
 }
+
+@media screen and (max-width: 768px) {
+  .menu-display {
+    text-align: center;
+    background-color: #125b50;
+    position: fixed;
+    width: 100%;
+    top: 79px;
+    left: 0;
+  }
+}

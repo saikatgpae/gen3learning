@@ -3,6 +3,7 @@ import logo from '../../images/logo.png';
 import Mobile from '../Mobile/Mobile';
 import Desktop from '../Desktop/Desktop';
 import './Header.css';
+// import SignUp from '../SignUp/SignUp';
 
 export default function Header() {
   const [page, setPage] = useState(false);
