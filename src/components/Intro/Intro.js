@@ -7,16 +7,10 @@ export default function Intro(prop) {
   const { students, courses, years } = prop;
   return (
     <section className="introduction">
-      <div className="intro pb-4">
-        <div className="m-4">
-          <img className="learning" src={learning} alt="learning banner" />
-        </div>
-        <div className="m-4">
-          <img className="explore" src={explor} alt="explore banner" />
-        </div>
-        <div>
-          <button type="button" className="btn btn-lg m-4" style={{ backgroundColor: '#fde74c', float: 'left' }}>REGISTER NOW</button>
-        </div>
+      <div className="intro p-4 pb-4">
+        <img className="learning" src={learning} alt="learning banner" style={{ }} />
+        <img className="explore" src={explor} alt="explore banner" style={{ }} />
+        <button type="button" className="btn btn-lg" style={{ backgroundColor: '#fde74c', float: 'left' }}>REGISTER NOW</button>
         <div
           className="highlight p-4 mb-4"
           style={{
