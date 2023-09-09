@@ -1,0 +1,9 @@
+.sign-up {
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .sign-up {
+    display: block;
+  }
+}

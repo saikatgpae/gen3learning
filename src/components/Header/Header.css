@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  align-items: center;
+  height: 80px;
+
+  /* justify-content: space-evenly; */
+  padding: 0 60px;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    justify-content: space-evenly;
+    padding: 0 0;
+  }
+}

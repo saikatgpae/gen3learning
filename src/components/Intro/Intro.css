@@ -1,0 +1,36 @@
+.intro {
+  background-image: url('../../images/backgroundImg.1074fef2f07640ddece6\ \(1\).svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  width: 50%;
+}
+
+.introduction {
+  display: flex;
+}
+
+.learning,
+.explore {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.front-image {
+  background-image: url('../../images/frontbackground.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  height: auto;
+  width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .front-image {
+    display: none;
+  }
+
+  .intro {
+    width: 100%;
+  }
+}

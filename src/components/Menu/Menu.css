@@ -1,0 +1,17 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .menu {
+    display: block;
+  }
+
+  .menu-items,
+  .free-trial-signin {
+    display: block;
+    margin: 15px 0;
+  }
+}
